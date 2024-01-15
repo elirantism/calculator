@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="box" style="padding: 10px;">
+        <h1 id="answer"></h1>
+        <table>
+        <div class="top">
+            <tr>
+                <td><button id="plus" onclick="add()">+</button></td>
+                <td><button id="sub" onclick="sub()">-</button></td>
+                <td><button id="mult" onclick="mult()">x</button></td>
+                <td><button id="div" onclick="div()">/</button></td>
+            </tr>
+        </div>
+        <div class="nottop">
+            <tr>
+                <td><button id="7" onclick="number(7)">7</button></td>
+                <td><button id="8" onclick="number(8)">8</button></td>
+                <td><button id="9" onclick="number(9)">9</button></td>
+                <td rowspan="4"><button id="equal" class="bottom" onclick="equal()">=</button></td>
+            </tr>
+            <tr>
+                <td><button id="4" onclick="number(4)">4</button></td>
+                <td><button id="5" onclick="number(5)">5</button></td>
+                <td><button id="6" onclick="number(6)">6</button></td>
+            </tr>
+            <tr>
+                <td><button id="1" onclick="number(1)">1</button></td>
+                <td><button id="2" onclick="number(2)">2</button></td>
+                <td><button id="3" onclick="number(3)">3</button></td>
+            </tr>
+            <tr class="bottom">
+                <td><button id="0" onclick="number(0)">0</button></td>
+                <td><button id="dot" onclick="dot()">.</button></td>
+                <td><button id="C" onclick="c()">C</button></td>
+            </tr>
+        </div>
+        </table>
+    </div>
+
+
+    <script type="text/JAVASCRIPT" src="index4.js"></script>
+</body>
+</html>

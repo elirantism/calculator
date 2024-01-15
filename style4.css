@@ -1,0 +1,50 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+button {
+    font-size: 40px;
+    color: black;
+    width: 116px;
+    height: 80px;
+    margin-right: 7px;
+    margin-left: 8px;
+    margin-top: 10px;
+    background-color: #F9F9F9;
+}
+
+#plus {
+    background-color: #DDDDDD;
+}
+
+#sub {
+    background-color: #DDDDDD;
+}
+
+#mult {
+    background-color: #DDDDDD;
+}
+
+#div {
+    background-color: #DDDDDD;
+}
+
+#answer {
+    width: 512px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#equal {
+    height: 362px;
+    background-color: #4E8FFE;
+    color: white;
+}
+
